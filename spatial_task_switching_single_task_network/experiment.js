@@ -166,8 +166,7 @@ var createTrialTypes = function(task_switches){
 	numbers_list = [[6,8],[7,9],[2,4],[1,3]]
 	numbers = [1,2,3,4,6,7,8,9]	
 	
-	predictable_dimension = predictable_dimensions[whichQuadStart - 1]
-	console.log(predictable_cond_array[quadIndex - 1])	
+	predictable_dimension = predictable_dimensions[whichQuadStart - 1]	
 	number = numbers[Math.floor((Math.random() * 8))]
 	
 	
